@@ -1,6 +1,6 @@
 DispatchExample
 ===============
-![iPhone thumbs](https://github.com/paopaosa/DispatchExample/blob/master/pic.png)
+![iPhone thumbs](https://github.com/paopaosa/DispatchExample/blob/master/pic.png?raw=true)
 
 My Dispatch Exercise
 
