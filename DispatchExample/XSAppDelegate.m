@@ -7,6 +7,7 @@
 //
 
 #import "XSAppDelegate.h"
+#import "XSHomeViewController.h"
 
 @implementation XSAppDelegate
 
@@ -15,6 +16,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    XSHomeViewController *homeVC = [[XSHomeViewController alloc] initWithNibName:@"XSHomeViewController" bundle:nil];
+    self.window.rootViewController = homeVC;
     [self.window makeKeyAndVisible];
     return YES;
 }

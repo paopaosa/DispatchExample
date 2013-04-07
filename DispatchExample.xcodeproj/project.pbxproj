@@ -16,6 +16,8 @@
 		CE893F03171160C700260EC2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE893F02171160C700260EC2 /* Default.png */; };
 		CE893F05171160C700260EC2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE893F04171160C700260EC2 /* Default@2x.png */; };
 		CE893F07171160C700260EC2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE893F06171160C700260EC2 /* Default-568h@2x.png */; };
+		CE893F10171160ED00260EC2 /* XSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE893F0E171160ED00260EC2 /* XSHomeViewController.m */; };
+		CE893F11171160ED00260EC2 /* XSHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE893F0F171160ED00260EC2 /* XSHomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		CE893F02171160C700260EC2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CE893F04171160C700260EC2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CE893F06171160C700260EC2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE893F0D171160ED00260EC2 /* XSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSHomeViewController.h; sourceTree = "<group>"; };
+		CE893F0E171160ED00260EC2 /* XSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSHomeViewController.m; sourceTree = "<group>"; };
+		CE893F0F171160ED00260EC2 /* XSHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSHomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 			children = (
 				CE893EFF171160C700260EC2 /* XSAppDelegate.h */,
 				CE893F00171160C700260EC2 /* XSAppDelegate.m */,
+				CE893F0D171160ED00260EC2 /* XSHomeViewController.h */,
+				CE893F0E171160ED00260EC2 /* XSHomeViewController.m */,
+				CE893F0F171160ED00260EC2 /* XSHomeViewController.xib */,
 				CE893EF7171160C600260EC2 /* Supporting Files */,
 			);
 			path = DispatchExample;
@@ -155,6 +163,7 @@
 				CE893F03171160C700260EC2 /* Default.png in Resources */,
 				CE893F05171160C700260EC2 /* Default@2x.png in Resources */,
 				CE893F07171160C700260EC2 /* Default-568h@2x.png in Resources */,
+				CE893F11171160ED00260EC2 /* XSHomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 			files = (
 				CE893EFD171160C600260EC2 /* main.m in Sources */,
 				CE893F01171160C700260EC2 /* XSAppDelegate.m in Sources */,
+				CE893F10171160ED00260EC2 /* XSHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
